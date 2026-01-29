@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Exception Handling</title>
+<script>
+function validate() {
+try {
+let age = document.getElementById("age").value;
+    if (age == "") 
+	throw "Age is empty";
+    if (isNaN(age)) 
+	throw "Age must be a number";
+    if (age < 18) 
+	throw "Age must be 18 or above";
+        alert("Valid Input");
+    }
+    catch (err) {
+        alert("Error: " + err);
+    }
+}
+</script>
+</head>
+
+<body>
+Age: <input type="text" id="age">
+<button onclick="validate()">Submit</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<students>
+
+    <student>
+        <rgno>120</rgno>
+        <name>Narasimha</name>
+        <dept>CSE</dept>
+    </student>
+
+    <student>
+        <rgno>121</rgno>
+        <name>Bhuma</name>
+        <dept>ECE</dept>
+    </student>
+
+    <student>
+        <rgno>122</rgno>
+        <name>Venkat</name>
+   r4re45tept>EEE</dept>
+    </student>
+
+</students>

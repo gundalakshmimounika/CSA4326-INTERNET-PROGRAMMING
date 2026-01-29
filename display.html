@@ -1,0 +1,24 @@
+<html>
+<body bgcolor=green>
+
+<form>
+    Name:
+    <input type="text" name="n">
+    <input type="submit">
+</form>
+
+<script>
+n = new URLSearchParams(location.search).get("n");
+
+if(n){
+document.write("<h1>"+n+"</h1>");
+document.write("<h2><i>"+n+"</i></h2>");
+document.write("<h3><b>"+n+"</b></h3>");
+document.write("<h4><u>"+n+"</u></h4>");
+document.write("<h5>"+n+"</h5>");
+document.write("<h6>"+n+"</h6>");
+}
+</script>
+
+</body>
+</html>

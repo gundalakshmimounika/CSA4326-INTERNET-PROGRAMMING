@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<students>
+    <student>
+        <rgno>101</rgno>
+        <name>Narasimha</name>
+        <dept>CSE</dept>
+    </student>
+<student><rgno>102</rgno><name>SAI</name><dept>cse</dept></student></students>
